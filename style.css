@@ -1,0 +1,78 @@
+:root{
+    --cafe-escuro: #2f1b12;
+    --cafe: #c67c4e;
+    --creme: #f5efe6;
+    --branco: #ffffff;
+}
+    
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--creme);
+    color: var(--cafe-escuro);
+}
+
+.navbar {
+    background-color: var(--cafe-escuro);
+}
+
+.navbar-brand {
+    color: var(--branco) !important;
+    font-weight: 700;
+}
+
+.navbar-brand i {
+    color: var(--cafe)
+}
+
+.btn-carrinho {
+    position: relative;
+    color: var(--branco);
+    font-size: 1.3rem;
+}
+
+.btn-carrinho .badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--cafe);
+    font-size: 0.7rem;
+    border-radius: 50%;
+}
+
+.banner {
+    padding: 90px;
+    color: var(--branco);
+    background: linear-gradient(rgba(47, 27, 18, 0.75), rgba(47, 27, 18, 0.75)),
+    url("https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.istockphoto.com%2Fbr%2Ffotos%2Fcaf%25C3%25A9-preto&ved=0CBcQjRxqFwoTCNjjhcb7-5cDFQAAAAAdAAAAABBT&opi=89978449") center / cover;
+}
+
+.banner .tag {
+    background-color: var(--cafe);
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.btn-cafe{
+    background-color: #a8633a;
+    color: var(--branco);
+    border-radius: 14px;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+
+.btn-cafe:hover {
+    background-color: #a8633a;
+    color: var(--branco);
+}
+
+.titulo-secao {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
